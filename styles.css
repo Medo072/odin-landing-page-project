@@ -1,0 +1,174 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header, .first, .copyright{
+    background-color: #1F2937;
+}
+
+.header1{
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+
+.second-text, .header li{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+button, .fourth{
+    background-color: #3882F6;
+    color: #E5E7EB;
+}
+
+.information{
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+    margin-bottom: 30px;
+}
+
+.third{
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    padding: 100px 300px;
+    gap: 20px;
+    flex-shrink: 0;
+}
+
+.Quote{
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 100;
+    font-style: italic;
+}
+
+.footer{
+    align-self: flex-end;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 200px;
+}
+
+ul{
+    display: flex;
+    margin: 0;
+    padding: 0;
+    gap: 20px;
+    list-style: none;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+.header img{
+    height: 60px;
+    width: auto;
+}
+.first img{
+    height: 200px;
+    width: auto;
+}
+
+.first{
+    display: flex;
+    padding: 40px 200px;
+    gap: 30px;
+}
+.first .text{
+    display: flex;
+    flex-direction: column;
+    margin-right: auto;
+    flex-wrap: wrap;
+
+}
+button{
+    align-self: flex-start;
+    margin-top: 20px;
+    border-radius: 10px;
+    padding: 3px 10px;
+    width: 100px;
+    height: 35px;
+    border: none;
+}
+
+.second{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 30px;
+    padding: 0 200px
+}
+.container .card{
+    width: 150px;
+    height: 150px;
+    border: 3px solid #3882F6;
+    border-radius: 15px;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+    justify-content: center;
+    text-align: center;
+}
+
+.images{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+.fourth{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 100px 200px;
+    border-radius: 5px;
+    padding: 30px 100px;
+    flex-shrink: 0;
+}
+
+.reach-me{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.contact{
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.facebook{
+    border: 2px solid white;
+    Padding: 5px 15px;
+}
+
+.copyright{
+    display: flex;
+    flex: auto;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    height: 80px;
+}
+
