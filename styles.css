@@ -72,6 +72,10 @@ ul{
     list-style: none;
 }
 
+.links li a img{
+    height: 30px;
+}
+
 a{
     color: white;
     text-decoration: none;
@@ -82,7 +86,7 @@ a{
     width: auto;
 }
 .first img{
-    height: 200px;
+    height: 300px;
     width: auto;
 }
 
@@ -150,6 +154,7 @@ button{
 .reach-me{
     display: flex;
     flex-direction: column;
+    align-self: center;
     gap: 10px;
 }
 
@@ -172,3 +177,16 @@ button{
     height: 80px;
 }
 
+span{
+    text-transform: capitalize;
+    color: #F9FAF8;
+}
+
+.facebookicon img{
+    height: 60px;
+}
+
+.first .text a img{
+    height: 40px;
+    margin-top: 30px;
+}
